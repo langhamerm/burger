@@ -2,9 +2,9 @@
 -- Seed Burgers into Database
 INSERT INTO burgers(burger_name, devoured)
 VALUES ("Big Mac", false),
-  ("Whooper", false),
-  ("Cheezburger", false),
+  ("Whopper", false),
+  ("McDouble", false),
   ("Baconator", false),
   ("Quarter Pounder", false),
-  ("McRoyal", false),
-  ("Double Double", true);
+  ("McGangBang", false),
+  ("Butter Burger", true);
