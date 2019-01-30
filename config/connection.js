@@ -4,7 +4,7 @@ var connection;
 
 // For Heroku Deployment vs. Local MySQL Database
 if(process.env.JAWSDB_URL){
-  connection = mysql.createConnection(process.env.test-marklanghamer-jawsdb1);
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 else{
   connection = mysql.createConnection({
